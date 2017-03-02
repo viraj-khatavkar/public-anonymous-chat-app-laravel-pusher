@@ -12103,7 +12103,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
 
 /* harmony default export */ __webpack_exports__["default"] = {
     data: function data() {
@@ -36706,7 +36705,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       staticClass: "header"
     }, [_c('strong', {
       staticClass: "primary-font"
-    }, [_vm._v(_vm._s(conversation.user))]), _vm._v(" "), _vm._m(1, true)]), _vm._v(" "), _c('p', [_vm._v("\n                                    " + _vm._s(conversation.message) + "\n                                ")])])])
+    }, [_vm._v(_vm._s(conversation.user))])]), _vm._v(" "), _c('p', [_vm._v("\n                                    " + _vm._s(conversation.message) + "\n                                ")])])])
   }))]), _vm._v(" "), _c('div', {
     staticClass: "panel-footer"
   }, [_c('div', {
@@ -36773,12 +36772,6 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_c('span', {
     staticClass: "glyphicon glyphicon-chevron-down"
   })])])])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('small', {
-    staticClass: "pull-right text-muted"
-  }, [_c('span', {
-    staticClass: "glyphicon glyphicon-time"
-  }), _vm._v("12 mins ago")])
 }]}
 module.exports.render._withStripped = true
 if (false) {

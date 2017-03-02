@@ -20,8 +20,7 @@
                             </span> -->
                                 <div class="chat-body clearfix">
                                     <div class="header">
-                                        <strong class="primary-font">{{ conversation.user }}</strong> <small class="pull-right text-muted">
-                                            <span class="glyphicon glyphicon-time"></span>12 mins ago</small>
+                                        <strong class="primary-font">{{ conversation.user }}</strong>
                                     </div>
                                     <p>
                                         {{ conversation.message }}
